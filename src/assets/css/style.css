@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,700&display=swap");
+
+html {
+  font-size: 10px;
+  font-family: "Poppins";
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  padding: 0 15em;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #007bfe;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.menu-nav {
+  flex-grow: 1;
+  display: flex;
+  flex-basis: 30%;
+  padding-top: 1.3em;
+}
+
+.menu-nav .menu-list {
+  list-style: none;
+}
+
+.menu-nav .menu-list li {
+  display: inline-block;
+}
+
+.menu-nav .menu-list li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1em;
+  font-size: 1.4rem;
+}
+
+.cta-btn {
+  margin-top: 0.2em;
+  margin-left: 1em;
+}
+
+.btn-hover {
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 1.2em 3.4em;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:nth-child(1) {
+  padding: 0.8em 3em;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  transform: translateY(20%);
+}
+
+.base-gradient {
+  background-color: #fff;
+  color: #007bfe;
+  font-size: 1.3rem;
+}
+
+section {
+  margin-bottom: 5em;
+}
+
+/* Section .::. Header */
+
+.container #header {
+  background-image: url("../img/header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#header .title-main-header {
+  margin: 13em 15em 0 15em;
+  flex-basis: 85%;
+}
+
+.title-main-header h3.text-school {
+  font-size: 4rem;
+  line-height: 40pt;
+  letter-spacing: 2pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 1.5em 0 0.5em 0;
+}
+
+.title-main-header p.text-description {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 2em;
+}
+
+.img-header {
+  margin-right: 15em;
+  margin-top: -2em;
+}
+
+.img-header img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Section .::. Tata Cara */
+
+.container #tata-cara {
+  padding: 0 2em 2em 2em;
+  display: flex;
+  margin-top: -5em;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-header {
+  text-align: center;
+}
+
+.title-header .text-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+}
+
+.title-header span {
+  max-width: 1em;
+  font-size: 12px;
+  text-align: center;
+  color: #909090;
+}
+
+.container #tata-cara .content {
+  display: flex;
+  justify-content: center;
+  margin: 3em 15em;
+  margin: auto;
+}
+
+.card {
+  margin: 5em 0 0 0;
+  width: 25em;
+}
+
+.card .card-image {
+  text-align: center;
+}
+
+.card .card-body {
+  padding: 1em 0;
+}
+
+.card__title {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #434343;
+}
+
+.card__description {
+  padding: 2em;
+  line-height: 2.2em;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#cta-website {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(270deg, #00d2ff 0%, #0072ff 100%);
+  height: 22em;
+  padding: 0 15em;
+}
+
+#cta-website .left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cta-website .right-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#cta-website .left-side .text-attention {
+  width: 490px;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.about {
+  margin: 0 15em;
+  display: flex;
+}
+
+.about article {
+  font-size: 1.3rem;
+  margin-left: 2.5em;
+}
+
+.about article p:nth-child(1) {
+  margin: 3em 0;
+}
