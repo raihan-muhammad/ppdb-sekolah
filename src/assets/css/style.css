@@ -98,10 +98,6 @@ nav {
   font-size: 1.3rem;
 }
 
-section {
-  margin-bottom: 5em;
-}
-
 /* Section .::. Header */
 
 .container #header {
@@ -151,7 +147,7 @@ section {
 .container #tata-cara {
   padding: 0 2em 2em 2em;
   display: flex;
-  margin-top: -5em;
+  margin-top: 4em;
   flex-direction: column;
   justify-content: center;
 }
@@ -165,13 +161,13 @@ section {
   text-transform: uppercase;
   font-size: 2.4rem;
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 0.2em;
   margin-bottom: 0.5em;
 }
 
 .title-header span {
   max-width: 1em;
-  font-size: 12px;
+  font-size: 1.2rem;
   text-align: center;
   color: #909090;
 }
@@ -184,7 +180,7 @@ section {
 }
 
 .card {
-  margin: 5em 0 0 0;
+  margin: 5em 0 10em 0;
   width: 25em;
 }
 
@@ -217,6 +213,7 @@ section {
   background: linear-gradient(270deg, #00d2ff 0%, #0072ff 100%);
   height: 22em;
   padding: 0 15em;
+  margin-bottom: 15em;
 }
 
 #cta-website .left-side {
@@ -249,4 +246,63 @@ section {
 
 .about article p:nth-child(1) {
   margin: 3em 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(270deg, #00d2ff 0%, #0072ff 100%);
+  height: 22em;
+  padding: 7.5em 15em;
+  margin-top: 15em;
+  margin-bottom: 0em;
+}
+
+.contact .judul-contact {
+  font-size: 2.4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.contact .text-description {
+  color: #fff;
+  margin-top: 0.4em;
+  font-size: 1.2rem;
+}
+
+.contact .nomer-text {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contact p:nth-child(3) {
+  margin-top: 4em;
+}
+
+/* maps */
+
+.maps {
+  padding-top: 2em;
+}
+
+.maps .mapContainer {
+  border: 1px solid #fff;
+  outline: none !important;
+}
+
+.maps a {
+  text-decoration: none;
+  display: none;
+}
+/* end maps */
+
+footer {
+  text-align: center;
+  padding: 0.5em 0;
+  font-size: 1.2rem;
+  background: #1f80e8;
+  color: #fff;
 }
