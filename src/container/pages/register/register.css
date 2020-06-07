@@ -7,8 +7,8 @@
 
 .register .kanan {
   flex-grow: 1;
-  flex-basis: 50%;
-  background: #607d8b;
+  flex-basis: 70%;
+  background: #e1e8eb;
 }
 
 .register .kanan .bungkus-gambar {
@@ -29,13 +29,13 @@
   position: relative;
   top: 66%;
   font-size: 2rem;
-  color: #7be5fd;
+  color: #25295b;
 }
 
 .register .kanan .text-desc {
   position: relative;
   top: 64%;
-  color: #7be5fd;
+  color: #25295b;
   margin: auto;
   font-size: 1.2rem;
   width: 70%;
@@ -45,27 +45,96 @@
 
 .register .kiri {
   flex-grow: 1;
-  flex-basis: 50%;
+  flex-basis: 30%;
+  overflow: scroll;
   padding: 4% 0 4% 5%;
+}
+
+.register .kiri .garis-bawah {
+  width: 100%;
+  margin: 5% 0 5% -10%;
+  background: #bbb;
 }
 
 .register .kiri .text-back {
   text-decoration: none;
   font-size: 1.3rem;
-  color: rgb(119, 119, 119);
+  color: #25295b;
 }
 
 .register .kiri .text-formulir {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-top: 3em;
-  color: rgb(119, 119, 119);
+  color: #25295b;
+  text-transform: uppercase;
+}
+
+.register .kiri .judul-h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
 
 .register .kiri .input-form {
   width: 20em;
-  border: none;
-  height: 2em;
-  margin: 1em 2em 1em 0;
+  height: 2.6em;
+  margin: 0.5em 2em 0.5em 0;
   padding-left: 1.5em;
-  border-radius: 2em;
+  border-radius: 0.5em;
+  border: 1px solid #bbb;
+  outline: none;
+}
+
+.register .kiri .label-form {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.4em;
+}
+
+.register .kiri .input-select {
+  margin-top: 0.5em;
+  width: 21.7em;
+  border-radius: 0.5em;
+  height: 2.8em;
+  padding: 0 1.3em;
+  color: #767676;
+  border: 1px solid #bbb;
+  outline: none;
+  margin-bottom: 0.5em;
+}
+
+.register .kiri .input-text-area {
+  max-width: 21.7em;
+  min-width: 21.7em;
+  height: 6em;
+  border-radius: 0.5em;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  padding: 0.7em 1.3em;
+  outline: none;
+  margin-top: 0.5em;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1em;
+}
+
+.btn-daftar {
+  width: 10em;
+  height: 2.7em;
+  background: #25295b;
+  border: none;
+  border-radius: 0.4em;
+  color: #fff;
+  margin-top: 0.5em;
+  outline: none;
+}
+
+.btn-daftar:active {
+  outline: none;
+}
+
+.btn-daftar:hover {
+  cursor: pointer;
 }
