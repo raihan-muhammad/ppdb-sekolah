@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd71788e55c41347bedf58f3a406c7f9",
+    "revision": "133526aefe30885d1f1fa9bd3bfcfe2e",
     "url": "/ppdb-sekolah/index.html"
   },
   {
-    "revision": "c87fba7f89c678527538",
+    "revision": "0aa918f2867bf6eee0e2",
     "url": "/ppdb-sekolah/static/css/main.bd89a6c1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppdb-sekolah/static/js/2.2d2699c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c87fba7f89c678527538",
-    "url": "/ppdb-sekolah/static/js/main.1816696c.chunk.js"
+    "revision": "0aa918f2867bf6eee0e2",
+    "url": "/ppdb-sekolah/static/js/main.f234dd18.chunk.js"
   },
   {
     "revision": "0266bd4796566e856d36",
