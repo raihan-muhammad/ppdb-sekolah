@@ -74,7 +74,7 @@ function Register() {
     <Fragment>
       <section className="register">
         <section className="kiri">
-          <Link to="/" className="text-back">
+          <Link to="/ppdb-sekolah" className="text-back">
             &#8592; Kembali
           </Link>
           <h1 className="text-formulir">Formulir Pendaftaran</h1>
