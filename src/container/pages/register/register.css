@@ -138,3 +138,17 @@
 .btn-daftar:hover {
   cursor: pointer;
 }
+
+/* QUERY MEDIA */
+
+@media (max-width: 580px) {
+  .kanan {
+    display: none;
+  }
+
+  .kiri {
+    padding: 6% 0 6% 10% !important;
+  }
+}
+
+/* END QUERY MEDIA */

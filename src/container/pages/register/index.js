@@ -37,21 +37,21 @@ const CustomTextArea = ({ label, ...props }) => {
   );
 };
 
-const CustomCheckbox = ({ children, ...props }) => {
-  const [field, meta] = useField(props, "checkbox");
+// const CustomCheckbox = ({ children, ...props }) => {
+//   const [field, meta] = useField(props, "checkbox");
 
-  return (
-    <>
-      <label className="checkbox" className="label-form">
-        <input type="checkbox" {...field} {...props} />
-        {children}
-      </label>
-      {meta.touched && meta.error ? (
-        <div className="error">{meta.error}</div>
-      ) : null}
-    </>
-  );
-};
+//   return (
+//     <>
+//       <label className="checkbox" className="label-form">
+//         <input type="checkbox" {...field} {...props} />
+//         {children}
+//       </label>
+//       {meta.touched && meta.error ? (
+//         <div className="error">{meta.error}</div>
+//       ) : null}
+//     </>
+//   );
+// };
 
 const CustomSelect = ({ label, ...props }) => {
   const [field, meta] = useField(props);

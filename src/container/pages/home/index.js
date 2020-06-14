@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import mapboxgl from "mapbox-gl";
 import "../../../assets/css/style.css";
 import heroIllustrator from "../../../assets/img/hero_illustrator.svg";
-import logoSekolah from "../../../assets/img/logo_sekolah.svg";
+import logoSekolah from "../../../assets/img/png-elementary-school-primary-education-high-school-school-class-logo-high-school-elementary-school-clipart.png";
 import ilustratorFront from "../../../assets/img/IllustratorFront.png";
 import registerIlustrator from "../../../assets/img/IllustratorRegister.svg";
 import ilustratorSeleksi from "../../../assets/img/IlustratorSeleksi.svg";
@@ -22,25 +22,19 @@ class Home extends Component {
     this.state = {
       lng: 113.9213257,
       lat: -0.789275,
-      zoom: 2,
+      zoom: 3,
     };
   }
 
   componentDidMount() {
     const map = new mapboxgl.Map({
       container: this.mapContainer,
-      style: "mapbox://styles/mapbox/streets-v11",
+      style: "mapbox://styles/raihanmuhammad/ckb5788p80uet1ip9iha7sv2e",
       center: [this.state.lng, this.state.lat],
       zoom: this.state.zoom,
     });
 
-    map.on("move", () => {
-      this.setState({
-        lng: map.getCenter().lng.toFixed(4),
-        lat: map.getCenter().lat.toFixed(4),
-        zoom: map.getZoom().toFixed(2),
-      });
-    });
+    new mapboxgl.Marker().setLngLat([113.9213257, -0.789275]).addTo(map);
   }
 
   render() {
@@ -57,16 +51,24 @@ class Home extends Component {
             <div className="menu-nav">
               <ul className="menu-list">
                 <li className="menu-item">
-                  <a href="#">Beranda</a>
+                  <a href="#" className="menu-link">
+                    Beranda
+                  </a>
                 </li>
                 <li className="menu-item">
-                  <a href="#">Tata Cara</a>
+                  <a href="#tata-cara" className="menu-link">
+                    Tata Cara
+                  </a>
                 </li>
                 <li className="menu-item">
-                  <a href="#">Tentang</a>
+                  <a href="#tentang-kami" className="menu-link">
+                    Tentang
+                  </a>
                 </li>
                 <li className="menu-item">
-                  <a href="#">Kontak</a>
+                  <a href="#contact" className="menu-link">
+                    Kontak
+                  </a>
                 </li>
               </ul>
               <Link to="/register">
@@ -172,7 +174,18 @@ class Home extends Component {
               </p>
             </article>
           </section>
-          <section className="contact">
+          <section>
+            <div className="title-header">
+              <h4 className="text-title">Lokasi Kami</h4>
+              <span className="text-lokasi-span">
+                Ini adalah lokasi sekolah kami.
+              </span>
+            </div>
+            <div className="mapContainer">
+              <div ref={(el) => (this.mapContainer = el)} id="map" />
+            </div>
+          </section>
+          <section className="contact" id="contact">
             <div className="contact-us">
               <p className="judul-contact">Contact Us</p>
               <p className="text-description">
@@ -182,18 +195,6 @@ class Home extends Component {
               <p className="nomer-text">Wa : 08920202020 (Budi)</p>
               <p className="nomer-text">Telp : 08920202020 (Raihan)</p>
               <p className="nomer-text">Email : smk2kra@gmail.com </p>
-            </div>
-            <div className="maps">
-              {/* <div className="sidebarStyle">
-                <div>
-                  Longitude: {this.state.lng} | Latitude: {this.state.lat} |
-                  Zoom: {this.state.zoom}
-                </div>
-              </div> */}
-              <div
-                ref={(el) => (this.mapContainer = el)}
-                className="mapContainer"
-              />
             </div>
           </section>
           <footer>

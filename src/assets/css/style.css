@@ -17,7 +17,6 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
 }
 
 header {
@@ -26,6 +25,7 @@ header {
   width: 100%;
   top: 0;
   background: #007bfe;
+  z-index: 99;
 }
 
 nav {
@@ -34,6 +34,13 @@ nav {
 
 .logo {
   flex-grow: 1;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0.7em 0 0.5em 0;
 }
 
 .menu-nav {
@@ -284,18 +291,19 @@ nav {
 
 /* maps */
 
-.maps {
-  padding-top: 2em;
+.mapContainer {
+  position: relative;
+  height: 40em;
+  width: 80%;
+  margin: 3em auto 1em auto;
+  overflow: hidden;
 }
 
-.maps .mapContainer {
-  border: 1px solid #fff;
-  outline: none !important;
-}
-
-.maps a {
-  text-decoration: none;
-  display: none;
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 /* end maps */
 
@@ -306,3 +314,115 @@ footer {
   background: #1f80e8;
   color: #fff;
 }
+
+.menu-responsive {
+  display: none;
+}
+
+/* RESPONSIVE QUERY */
+
+@media screen and (max-width: 580px) {
+  html {
+    overflow-x: hidden;
+    font-size: 9px;
+  }
+  .menu-link {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    padding: 0 4em;
+  }
+
+  .logo {
+    flex-grow: 2;
+  }
+  .menu-nav {
+    flex-grow: 1;
+  }
+
+  .btn-hover {
+    margin-right: 5em;
+  }
+
+  .logo img {
+    width: 45px;
+    height: 45px;
+  }
+
+  #tata-cara .content {
+    flex-direction: column !important;
+  }
+
+  #header {
+    flex-direction: column;
+    background-image: none !important;
+    background: #007bfe;
+    height: 60vh !important;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  }
+
+  #header .title-main-header {
+    margin: 9em 4em;
+  }
+
+  #header .title-main-header .text-description {
+    font-size: 1.2rem;
+  }
+
+  #header .title-main-header .text-school {
+    font-size: 2.5rem;
+    line-height: normal;
+  }
+
+  .img-header {
+    display: none;
+  }
+
+  #cta-website {
+    padding: 0 4em;
+    flex-direction: column;
+  }
+
+  .right-side,
+  .left-side {
+    display: inline !important;
+  }
+
+  .left-side {
+    margin-top: 2em !important;
+  }
+
+  .right-side {
+    margin-top: -0em !important;
+    margin: auto;
+    margin-right: 2em;
+  }
+
+  .text-attention {
+    font-size: 1.6rem !important;
+    text-align: center;
+    width: auto !important;
+  }
+
+  .about {
+    margin: 0 4em !important;
+    flex-direction: column;
+  }
+
+  .about figure {
+    margin-top: 5em;
+  }
+
+  .contact {
+    padding: 5em 4em;
+  }
+
+  .about img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+/* END RESPONSIVE QUERY */
