@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ppdb-sekolah/static/css/main.bd89a6c1.chunk.css",
-    "main.js": "/ppdb-sekolah/static/js/main.f234dd18.chunk.js",
-    "main.js.map": "/ppdb-sekolah/static/js/main.f234dd18.chunk.js.map",
+    "main.js": "/ppdb-sekolah/static/js/main.3bdc6de7.chunk.js",
+    "main.js.map": "/ppdb-sekolah/static/js/main.3bdc6de7.chunk.js.map",
     "runtime-main.js": "/ppdb-sekolah/static/js/runtime-main.8d42194d.js",
     "runtime-main.js.map": "/ppdb-sekolah/static/js/runtime-main.8d42194d.js.map",
     "static/js/2.2d2699c6.chunk.js": "/ppdb-sekolah/static/js/2.2d2699c6.chunk.js",
     "static/js/2.2d2699c6.chunk.js.map": "/ppdb-sekolah/static/js/2.2d2699c6.chunk.js.map",
     "index.html": "/ppdb-sekolah/index.html",
-    "precache-manifest.54b8795434bd3f6730ea5434b10f1918.js": "/ppdb-sekolah/precache-manifest.54b8795434bd3f6730ea5434b10f1918.js",
+    "precache-manifest.f856c8ee6690d73597ed35a61f2739d2.js": "/ppdb-sekolah/precache-manifest.f856c8ee6690d73597ed35a61f2739d2.js",
     "service-worker.js": "/ppdb-sekolah/service-worker.js",
     "static/css/main.bd89a6c1.chunk.css.map": "/ppdb-sekolah/static/css/main.bd89a6c1.chunk.css.map",
     "static/js/2.2d2699c6.chunk.js.LICENSE.txt": "/ppdb-sekolah/static/js/2.2d2699c6.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.8d42194d.js",
     "static/js/2.2d2699c6.chunk.js",
     "static/css/main.bd89a6c1.chunk.css",
-    "static/js/main.f234dd18.chunk.js"
+    "static/js/main.3bdc6de7.chunk.js"
   ]
 }
