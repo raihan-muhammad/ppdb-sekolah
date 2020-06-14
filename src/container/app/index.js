@@ -6,7 +6,7 @@ import Register from "../pages/register";
 function App() {
   return (
     <Router>
-      <Route path="/" exact component={Home} />
+      <Route path="/ppdb-sekolah" exact component={Home} />
       <Route path="/register" component={Register} />
     </Router>
   );
