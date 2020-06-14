@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ppdb-sekolah/static/css/main.bd89a6c1.chunk.css",
+    "main.js": "/ppdb-sekolah/static/js/main.1816696c.chunk.js",
+    "main.js.map": "/ppdb-sekolah/static/js/main.1816696c.chunk.js.map",
+    "runtime-main.js": "/ppdb-sekolah/static/js/runtime-main.8d42194d.js",
+    "runtime-main.js.map": "/ppdb-sekolah/static/js/runtime-main.8d42194d.js.map",
+    "static/js/2.2d2699c6.chunk.js": "/ppdb-sekolah/static/js/2.2d2699c6.chunk.js",
+    "static/js/2.2d2699c6.chunk.js.map": "/ppdb-sekolah/static/js/2.2d2699c6.chunk.js.map",
+    "index.html": "/ppdb-sekolah/index.html",
+    "precache-manifest.d2fb0d8eaaecc40977938723c10806bc.js": "/ppdb-sekolah/precache-manifest.d2fb0d8eaaecc40977938723c10806bc.js",
+    "service-worker.js": "/ppdb-sekolah/service-worker.js",
+    "static/css/main.bd89a6c1.chunk.css.map": "/ppdb-sekolah/static/css/main.bd89a6c1.chunk.css.map",
+    "static/js/2.2d2699c6.chunk.js.LICENSE.txt": "/ppdb-sekolah/static/js/2.2d2699c6.chunk.js.LICENSE.txt",
+    "static/media/IllustratorBiodata.svg": "/ppdb-sekolah/static/media/IllustratorBiodata.bed7a00a.svg",
+    "static/media/IllustratorFront.png": "/ppdb-sekolah/static/media/IllustratorFront.5b61a38a.png",
+    "static/media/IllustratorRegister.svg": "/ppdb-sekolah/static/media/IllustratorRegister.4fa73919.svg",
+    "static/media/IlustratorSeleksi.svg": "/ppdb-sekolah/static/media/IlustratorSeleksi.c9c0339e.svg",
+    "static/media/style.css": "/ppdb-sekolah/static/media/header.8fd9e08e.svg",
+    "static/media/hero_illustrator.svg": "/ppdb-sekolah/static/media/hero_illustrator.d2ea2d35.svg",
+    "static/media/png-elementary-school-primary-education-high-school-school-class-logo-high-school-elementary-school-clipart.png": "/ppdb-sekolah/static/media/png-elementary-school-primary-education-high-school-school-class-logo-high-school-elementary-school-clipart.8898db4f.png",
+    "static/media/user_group_two_color.svg": "/ppdb-sekolah/static/media/user_group_two_color.d5b4f14d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d42194d.js",
+    "static/js/2.2d2699c6.chunk.js",
+    "static/css/main.bd89a6c1.chunk.css",
+    "static/js/main.1816696c.chunk.js"
+  ]
+}
